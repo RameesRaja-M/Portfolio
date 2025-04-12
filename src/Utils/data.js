@@ -18,7 +18,7 @@ import { VscVscode, VscCommentUnresolved, VscTerminalPowershell } from "react-ic
 import { FaGitAlt,  FaDribbble } from "react-icons/fa";
 import { MdGroups3 } from "react-icons/md";
 
-import PROJECT_IMG_1 from "../assets/images/project-1.png"
+import PROJECT_IMG_1 from "../assets/images/Project-1.png"
 import PROJECT_IMG_2 from "../assets/images/project-2.png"
 import PROJECT_IMG_3 from "../assets/images/project-3.png"
 import PROJECT_IMG_4 from "../assets/images/project-4.png"
