@@ -7,41 +7,49 @@ import icon4 from "../assets/images/mongo logo.png"
 
 import { motion } from 'framer-motion'
 
+import resume from "../assets/images/Ramees-Resume.pdf"
 
 const Hero = () => {
   return (
     <section id='hero' className='container mx-auto px-8 md:px-32 '>
       <div className='flex flex-col lg:flex-row gap-14 items-center justify-between mt-[80px]'>
 
-        <motion.div 
-        
-        initial={{opacity:0,translateX:"-100%"}}
-              whileInView={{opacity:1,translateX:0}}
-              transition={{duration:2}}
-        
-        className='order-2 lg:order-1 text-center lg:text-left mt-16 lg:mt-0'>
+        <motion.div
+
+          initial={{ opacity: 0, translateX: "-100%" }}
+          whileInView={{ opacity: 1, translateX: 0 }}
+          transition={{ duration: 2 }}
+
+          className='order-2 lg:order-1 text-center lg:text-left mt-16 lg:mt-0'>
           <h3 className='text-xl lg:text-2xl font-medium text-black'>Hi👋, I'am Ramees Raja</h3>
           <h1
             className='w-full lg:w-[480px] text-4xl lg:text-5xl font-extrabold leading-[50px] lg:leading-[60px] 
                        mt-3 bg-gradient-primary bg-clip-text text-transparent'>
-             Mern Stack Web Developer - Junior
-           </h1>
+            Mern Stack Web Developer - Junior
+          </h1>
           <p className='w-full lg:w-[500px] text-sm lg:text-base mt-4'>Passionate MERN stack fresher with hands-on experience in building full-stack apps.
             Skilled in React, Node.js, Express, and MongoDB.
             I love solving real-world problems and writing clean, efficient code.</p>
           <div className='flex justify-center lg:justify-start gap-4 md:gap-8 mt-6'>
             <button className='flex-1 md:flex-none action-btn-outline btn-scale-anim'><a href="https://github.com/RameesRaja-M" target='blank'>View My Work</a></button>
-            <button className='flex-1 md:flex-none action-btn btn-scale-anim'>Download Resume</button>
+            <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+             className='flex-1 md:flex-none action-btn btn-scale-anim flex justify-center items-center'
+            >
+              View Resume
+            </a>
           </div>
         </motion.div>
 
-        <motion.div 
-        
-        initial={{ opacity: 0, translateX: "+100%" }}
-        whileInView={{ opacity: 1, translateX: 0 }}
-        transition={{ duration: 2 }}
+        <motion.div
 
-        className='w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative order-1 lg:order-2'>
+          initial={{ opacity: 0, translateX: "+100%" }}
+          whileInView={{ opacity: 1, translateX: 0 }}
+          transition={{ duration: 2 }}
+
+          className='w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative order-1 lg:order-2'>
           <img src={PROFILE_PIC} alt="Profile Pic" className='profile-pic rounded-full' />
 
           <img
