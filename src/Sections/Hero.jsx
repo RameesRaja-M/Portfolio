@@ -20,7 +20,7 @@ const Hero = () => {
               transition={{duration:2}}
         
         className='order-2 lg:order-1 text-center lg:text-left mt-16 lg:mt-0'>
-          <h3 className='text-xl lg:text-2xl font-medium text-black'>Hi👋, I'am Ramees Raja M</h3>
+          <h3 className='text-xl lg:text-2xl font-medium text-black'>Hi👋, I'am Ramees Raja</h3>
           <h1
             className='w-full lg:w-[480px] text-4xl lg:text-5xl font-extrabold leading-[50px] lg:leading-[60px] 
                        mt-3 bg-gradient-primary bg-clip-text text-transparent'>
