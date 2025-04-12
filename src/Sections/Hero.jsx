@@ -7,7 +7,7 @@ import icon4 from "../assets/images/mongo logo.png"
 
 import { motion } from 'framer-motion'
 
-import resume from "../assets/images/Ramees-Resume.pdf"
+
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
           <div className='flex justify-center lg:justify-start gap-4 md:gap-8 mt-6'>
             <button className='flex-1 md:flex-none action-btn-outline btn-scale-anim'><a href="https://github.com/RameesRaja-M" target='blank'>View My Work</a></button>
             <a
-              href={resume}
+              href={"https://drive.google.com/file/d/1nfhlowC71TaShVozWv8zUzLXLwwKyi3p/view?usp=drive_link"}
               target="_blank"
               rel="noopener noreferrer"
              className='flex-1 md:flex-none action-btn btn-scale-anim flex justify-center items-center'
