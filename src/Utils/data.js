@@ -5,6 +5,7 @@ import {
     FaNodeJs,
     FaGithub,
     FaLinkedin,
+    FaFacebook,
     FaInstagram,
     FaYoutube,
 
@@ -17,16 +18,16 @@ import { VscVscode, VscCommentUnresolved, VscTerminalPowershell } from "react-ic
 import { FaGitAlt,  FaDribbble } from "react-icons/fa";
 import { MdGroups3 } from "react-icons/md";
 
-import PROJECT_IMG_1 from "../../public/assets/images/Project-1.png"
-import PROJECT_IMG_2 from "../../public/assets/images/Project-2.png"
-import PROJECT_IMG_3 from "../../public/assets/images/Project-3.png"
-import PROJECT_IMG_4 from "../../public/assets/images/Project-4.png"
-import PROJECT_IMG_5 from "../../public/assets/images/Project-5.png"
-import PROJECT_IMG_6 from "../../public/assets/images/Project-6.png"
-import PROJECT_IMG_7 from "../../public/assets/images/Project-7.png"
-import PROJECT_IMG_8 from "../../public/assets/images/Project-8.png"
-import PROJECT_IMG_9 from "../../public/assets/images/Project-9.png"
-import PROJECT_IMG_10 from "../../public/assets/images/Project-10.png"
+import PROJECT_IMG_1 from "../assets/images/project-1.png"
+import PROJECT_IMG_2 from "../assets/images/project-2.png"
+import PROJECT_IMG_3 from "../assets/images/project-3.png"
+import PROJECT_IMG_4 from "../assets/images/project-4.png"
+import PROJECT_IMG_5 from "../assets/images/project-5.png"
+import PROJECT_IMG_6 from "../assets/images/project-6.png"
+import PROJECT_IMG_7 from "../assets/images/project-7.png"
+import PROJECT_IMG_8 from "../assets/images/project-8.png"
+import PROJECT_IMG_9 from "../assets/images/project-9.png"
+import PROJECT_IMG_10 from "../assets/images/project-10.png"
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
