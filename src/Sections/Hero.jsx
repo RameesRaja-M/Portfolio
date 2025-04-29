@@ -1,5 +1,5 @@
 import React from 'react'
-import PROFILE_PIC from "../assets/images/Ramees Raja Profile Pic.png"
+import PROFILE_PIC from "../assets/images/Ramees Raja Profile Pic copy.png"
 import icon1 from "../assets/images/React logo.png"
 import icon2 from "../assets/images/node logo.png"
 import icon3 from "../assets/images/express logo.png"
@@ -36,7 +36,7 @@ const Hero = () => {
              target="_blank"
              rel="noopener noreferrer">View My Work</a></button>
             <a
-              href={"https://drive.google.com/file/d/1DFAZ67bHNEP8dAwsLy8T10QOFizkOX_U/view?usp=drive_link"}
+              href={"https://drive.google.com/file/d/1H9dRHQcUQSYpJwiSSSk3dQiMF10CeWzB/view?usp=drive_link"}
               target="_blank"
               rel="noopener noreferrer"
              className='flex-1 md:flex-none action-btn btn-scale-anim flex justify-center items-center'
