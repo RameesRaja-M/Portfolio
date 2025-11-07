@@ -34,7 +34,7 @@ const Hero = () => {
              target="_blank"
              rel="noopener noreferrer">View My Work</a></button>
             <a
-              href={"https://drive.google.com/file/d/1H9dRHQcUQSYpJwiSSSk3dQiMF10CeWzB/view?usp=drive_link"}
+              href={"https://drive.google.com/file/d/18EPZWHXYDMcP_SsKDip9bTEADbDSZ_0S/view?usp=drive_link"}
               target="_blank"
               rel="noopener noreferrer"
              className='flex-1 md:flex-none action-btn btn-scale-anim flex justify-center items-center'
@@ -82,5 +82,6 @@ const Hero = () => {
 
 
 export default Hero
+
 
 
