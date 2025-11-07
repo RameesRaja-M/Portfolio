@@ -10,13 +10,13 @@ export default {
     extend: {
       // Colors
       colors:{
-        primary:"#c50124",
-        secondary:"#6b7280",
+        primary:"#174834",
+        secondary:"#3FA56B",
         background:"FFFCF8",
         White:"#FBFBFB"
       },
       backgroundImage:{
-       'gradient-primary': "linear-gradient(to right, #c50124, #ff7b00)",
+       'gradient-primary': "linear-gradient(to right, #174834, #00C853)",
       },
       fontFamily: {
         pacifico:["Pacifico","cursive"]
