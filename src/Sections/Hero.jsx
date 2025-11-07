@@ -25,7 +25,7 @@ const Hero = () => {
           <h1
             className='w-full lg:w-[480px] text-4xl lg:text-5xl font-extrabold leading-[50px] lg:leading-[60px] 
                        mt-3 bg-gradient-primary bg-clip-text text-transparent'>
-            Mern Stack Web Developer - Junior
+            Software Developer With MERN Stack 
           </h1>
           <p className='w-full lg:w-[500px] text-sm lg:text-base mt-4'>Full-stack MERN Developer with 2 months of industry internship experience. Strong in JavaScript, React.js, Node.js, Express.js, and MongoDB with practical knowledge of APIs, authentication, and database management. Highly motivated fresher ready to deliver value and adapt quickly in a team-driven environment.</p>
           <div className='flex justify-center lg:justify-start gap-4 md:gap-8 mt-6'>
@@ -34,7 +34,7 @@ const Hero = () => {
              target="_blank"
              rel="noopener noreferrer">View My Work</a></button>
             <a
-              href={"https://drive.google.com/file/d/18EPZWHXYDMcP_SsKDip9bTEADbDSZ_0S/view?usp=drive_link"}
+              href={"https://drive.google.com/file/d/1H9dRHQcUQSYpJwiSSSk3dQiMF10CeWzB/view?usp=drive_link"}
               target="_blank"
               rel="noopener noreferrer"
              className='flex-1 md:flex-none action-btn btn-scale-anim flex justify-center items-center'
@@ -80,4 +80,7 @@ const Hero = () => {
   )
 }
 
+
 export default Hero
+
+
